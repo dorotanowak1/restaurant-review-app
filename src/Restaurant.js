@@ -76,7 +76,7 @@ class Restaurant extends React.Component {
       const apiurl =
         "https://cors-anywhere.herokuapp.com/https://maps.googleapis.com/maps/api/place/details/json?placeid=" +
         this.state.restaurant.placeId +
-        "&key=AIzaSyDpZpcBF6Q7iisYJXN4_hbI2DUZbmrmauk";
+        "&key=key";
 
       if (this.state.restaurant.fetchReviews === false) {
         fetch(apiurl)
