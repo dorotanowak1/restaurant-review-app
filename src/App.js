@@ -152,7 +152,7 @@ class App extends Component {
             r.geometry.location.lat +
             "," +
             r.geometry.location.lng +
-            "&pitch=10&fov=90&heading=235&key=AIzaSyDpZpcBF6Q7iisYJXN4_hbI2DUZbmrmauk";
+            "&pitch=10&fov=90&heading=235&key=key";
           newMarkers = newMarkers.concat([
             {
               lat: r.geometry.location.lat,
