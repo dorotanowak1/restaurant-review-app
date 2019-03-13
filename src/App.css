@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  line-height: 150%;
+}
+
+five wide computer sixteen wide mobile sixteen wide tablet column rlist {
+  left: 0px;
+  right: 0px;
+}
+button {
+  margin-top: 10px;
+}
+
+label {
+  width: 100px;
+}
+
+input,
+textarea {
+  width: 300px;
+}
+
+form {
+  margin: 100px;
+}
+
+.submit {
+  width: 30%;
+}
+
+.map {
+  height: 100%;
+  width: 70%;
+  top: 0px;
+  left: 0;
+  overflow-x: hidden;
+  position: fixed;
+}
+
+.rlist {
+  opacity: 0.85;
+}
+img {
+  height: 220px;
+  width: 300px;
+}
+.hidden {
+  display: none;
+}
+div {
+  padding: 0px;
+  margin: 0px;
+}
+
+.filter {
+  width: 90%;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  /* mobile */
+  * {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+  }
+  ui raised very padded text container segment {
+    width: 100%;
+
+    top: 350px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .rlist {
+    width: 100%;
+
+    top: 350px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .submit {
+    width: 100%;
+  }
+  .map {
+    height: 350px;
+    width: 100%;
+    position: fixed;
+  }
+
+  .rlist,
+  .map {
+    display: block;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  /* tablets */
+  * {
+    font-size: 14px;
+  }
+  ui raised very padded text container segment {
+    width: 100%;
+
+    top: 350px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .rlist {
+    width: 100%;
+
+    top: 350px;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .map {
+    height: 350px;
+    width: 100%;
+    position: fixed;
+  }
+
+  .rlist,
+  .map {
+    display: block;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (min-device-width: 1401) and (min-width: 1824px) {
+  /* large screens */
+  * {
+    font-size: 26x;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .rlist {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1024px) {
+  .rlist,
+  .map {
+    display: block;
+    overflow: hidden;
+  }
+
+  .map {
+    height: 100%;
+    width: 69%;
+    top: 0px;
+    left: 0;
+    overflow-x: hidden;
+    position: fixed;
+  }
+  .rlist {
+    margin: 0px;
+    opacity: 0.85;
+    width: 37%;
+  }
+}
+
+@media only screen and (min-device-width: 1025px) {
+  .rlist,
+  .map {
+    display: block;
+    overflow: hidden;
+  }
+
+  .map {
+    height: 100%;
+    width: 69%;
+    top: 0px;
+    left: 0;
+    overflow-x: hidden;
+    position: fixed;
+  }
+  .rlist {
+    margin: 0px;
+
+    width: 37%;
+  }
+}
+
+@media only screen and (min-device-width: 1280px) {
+  .rlist {
+    width: 45%;
+  }
+  .map {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-device-width: 1440px) {
+  .rlist {
+    width: 55%;
+  }
+  * {
+    font-size: 14px;
+  }
+  .map {
+    width: 70%;
+  }
+}

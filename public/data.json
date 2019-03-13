@@ -1,0 +1,34 @@
+[
+  {
+    "restaurant": "Red Cow",
+    "address": "Benbow House, 24 New Globe Walk, London SE1 9DS",
+    "lat": 51.511197,
+    "long": -0.099353,
+    "ratings": [
+      {
+        "stars": 4,
+        "comment": "Great place"
+      },
+      {
+        "stars": 5,
+        "comment": "The best pizza!"
+      }
+    ]
+  },
+  {
+    "restaurant": "Dodi's",
+    "address": "225-227 Clink St, London SE1 9DG",
+    "lat": 51.487047,
+    "long": -0.061514,
+    "ratings": [
+      {
+        "stars": 3,
+        "comment": "Service could be better."
+      },
+      {
+        "stars": 5,
+        "comment": "Always tasty and fresh."
+      }
+    ]
+  }
+]
