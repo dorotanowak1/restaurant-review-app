@@ -33,6 +33,4 @@ Launch your own restaurant review site - project7 - frontend path by openclassro
   <li> use the search API to find restaurants in a particular display area</li>
 
 </ul>
-![](screenshots/2.jpeg)
-![](screenshots/3.jpeg)
-![](screenshots/4.jpeg)
+
