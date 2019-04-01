@@ -35,4 +35,4 @@ Launch your own restaurant review site - project7 - frontend path by openclassro
 </ul>
 ![](screenshots/2.jpeg)
 ![](screenshots/3.jpeg)
-![](screenshots/4.jpge)
+![](screenshots/4.jpeg)
